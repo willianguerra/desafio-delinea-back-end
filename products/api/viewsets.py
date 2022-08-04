@@ -5,6 +5,6 @@ from products import models
 
 
 class ProductsViewSet(viewsets.ModelViewSet):
-    permission_classes = (IsAuthenticated,)
+    # permission_classes = (IsAuthenticated,)
     serializer_class = serializers.ProductsSerializer
     queryset = models.Products.objects.all()
