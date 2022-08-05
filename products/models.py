@@ -13,4 +13,4 @@ class Products(models.Model):
     content = models.TextField(blank=True)
     creation = models.DateField(auto_now_add=True)
     price = models.FloatField()
-    image = models.ImageField(upload_to=upload_image_products, blank=False, null=False)
+    image = models.TextField(blank=True)
