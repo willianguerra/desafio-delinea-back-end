@@ -10,11 +10,11 @@
 Para iniciar a api em desenvolvimento você deve executar os seguintes comandos, execute o servidor de desenvolvimento:
 
 ```bash
-pip install requirements.txt
+  pip install requirements.txt
 and
-python py.manage makemigrations
-python py.manage migrate
-python py.manage runserver
+  python manage.py makemigrations
+  python manage.py migrate
+  python manage.py runserver
 ```
 
 <h2> Tecnologias utilizadas: </h2>
